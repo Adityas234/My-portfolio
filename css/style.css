@@ -12,7 +12,7 @@
 body.dark-theme {
   --bg-color: #0f172a;
   --text-color: #e5e7eb;
-  --muted-text: #cbd5f5; /* 🔥 IMPORTANT CHANGE */
+  --muted-text: #cbd5f5; 
   --section-bg: #020617;
   --card-bg: #020617;
 }
@@ -21,7 +21,7 @@ body.dark-theme {
   
 }
 
-/* NAVBAR THEME FIX */
+
 .navbar .nav-link,
 .navbar .navbar-brand {
   color: var(--text-color) !important;
@@ -32,7 +32,7 @@ body.dark-theme {
   color: #0d6efd !important;
 }
 
-/* Navbar toggler fix for dark mode */
+
 body.dark-theme .navbar-toggler {
   border-color: var(--border-color);
 }
@@ -47,7 +47,7 @@ html {
 
 .section {
   min-height: 100vh;
-  padding-top: 80px; /* prevents navbar overlap */
+  padding-top: 80px; 
 }
 
 
@@ -120,8 +120,6 @@ html {
 .number { color: #a5b4fc; }
 
 
-
-/* ABOUT SECTION */
 .about-section {
   background-color: var(--section-bg);
 }
@@ -151,7 +149,7 @@ html {
 .col-sm-6 .about-text p {
   color: var(--muted-text);
 }
-/* SKILLS SECTION */
+
 .skills-section {
   background-color: var(--section-bg);
 }
@@ -180,7 +178,7 @@ html {
   border-radius: 10px;
   font-size: 0.75rem;
 }
-/* PROJECTS SECTION */
+
 .projects-section {
   background-color: var(--section-bg);
 }
@@ -210,7 +208,7 @@ html {
   color: var(--muted-text);
 }
 
-/* EXPERIENCE SECTION */
+
 .experience-section {
   background-color: var(--section-bg);
 }
@@ -257,7 +255,7 @@ html {
 }
 
 
-/* EDUCATION SECTION */
+
 .education-section {
   background-color: var(--section-bg);
 }
@@ -298,7 +296,7 @@ html {
   color: #94a3b8;
 }
 
-/* CONTACT SECTION */
+
 .contact-section {
   background-color: var(--section-bg);
 }
@@ -361,7 +359,7 @@ html {
   background: #0d6efd;
   color: #ffffff;
 }
-/* FOOTER */
+
 .footer {
   background-color: #0f172a;
   color: #cbd5f5;
@@ -382,7 +380,7 @@ html {
 .footer-social a:hover {
   color: #0d6efd;
 }
-/* GLOBAL THEME STYLES */
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
